@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class threenomax {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        
+        System.out.print("Enter the value of a: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter the value of b: ");
+        int b = sc.nextInt();
+
+        System.out.print("Enter the value of c: ");
+        int c = sc.nextInt();
+
+        if (a > b && a > c) {
+            System.out.println("a is greaterthan b and c");
+        } else if (b > a && b > c) {
+            System.out.println("b is greaterthan a and c");
+        } else {
+            System.out.println("c is greaterthan a and b");
+        }
+    }
+}
