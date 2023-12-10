@@ -1,0 +1,868 @@
+1)
+Main inside :
+return and no argument 
+show1() : return type :byte 
+show2() :return type :short 
+show3() :return type :long
+show4() :return type :double 
+show5() :return type :boolean
+show6() :return type :float 
+show7() :return type :char 
+show8() :return type :String 
+
+user input 
+
+sol.
+import java.util.Scanner;
+//return and no argument
+public class retnoargMain {
+    Scanner sc = new Scanner(System.in);
+
+    
+    int show1() 
+    {
+        System.out.print("Enter the int value: ");
+        int a = sc.nextInt();
+
+        return a;
+    }
+
+    byte show2() 
+    {
+        System.out.print("Enter the byte value: ");
+        byte a = sc.nextByte();
+
+        return a;
+    }
+
+    short show3() 
+    {
+        System.out.print("Enter the short value: ");
+        short a = sc.nextShort();
+
+        return a;
+    }
+
+    long show4() 
+    {
+        System.out.print("Enter the long value: ");
+        long a = sc.nextLong();
+
+        return a;
+    }
+
+    double show5()
+    {
+        System.out.print("Enter the double value: ");
+        double a = sc.nextDouble();
+
+        return a;
+    }
+
+    boolean show6() 
+    {
+        System.out.print("Enter the boolean value: ");
+        boolean a = sc.nextBoolean();
+
+        return a;
+    }
+
+    float show7() 
+    {
+        System.out.print("Enter the float value: ");
+        float a = sc.nextFloat();
+
+        return a;
+    }
+
+    char show8() 
+    {
+        System.out.print("Enter the char value: ");
+        char a = sc.next().charAt(0);
+
+        return a;
+    }
+
+    public static void main(String[] args) {
+        retnoargMain k = new retnoargMain();
+        int a = k.show1();
+        System.out.println(a);
+
+        byte b = k.show2();
+        System.out.println(b);
+
+        short c = k.show3();
+        System.out.println(c);
+
+        long d = k.show4();
+        System.out.println(d);
+
+        double e = k.show5();
+        System.out.println(e);
+
+        boolean f = k.show6();
+        System.out.println(f);
+
+        float g = k.show7();
+        System.out.println(g);
+
+        char h = k.show8();
+        System.out.println(h);
+
+    }
+}
+
+Main inside :
+
+2)return and no argument 
+add() =>a+b 
+sub() =>a-b 
+multi() =>a*b 
+div() =>a/b 
+mod() =>a%b 
+
+user input
+
+sol.
+import java.util.Scanner;
+//return and no argument
+public class retnoargMain1 {
+    Scanner sc = new Scanner(System.in);
+
+    int add() {
+        System.out.print("Enter the first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int b = sc.nextInt();
+
+        int c = a+b;
+
+        return c;
+    }
+
+    int subt() {
+        System.out.print("Enter the first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int b = sc.nextInt();
+
+        int c =a-b;
+
+        return c;
+    }
+
+    int mult() {
+        System.out.print("Enter the first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int b = sc.nextInt();
+
+        int c = a*b;
+
+        return c;
+    }
+
+    int div() {
+        System.out.print("Enter the first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int b = sc.nextInt();
+
+        int c = a/b;
+
+        return c;
+    }
+
+    int mod() {
+        System.out.print("Enter the first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int b = sc.nextInt();
+
+        int c = a%b;
+
+        return c;
+    }
+
+    public static void main(String[] args) {
+        retnoargMain1 k = new retnoargMain1();
+        int add = k.add();
+        System.out.println("Addition is " + add);
+
+        int subt = k.subt();
+        System.out.println("Subtraction is " + subt);
+
+        int mult = k.mult();
+        System.out.println("Multiplication is " + mult);
+
+        int div = k.div();
+        System.out.println("Division is " + div);
+
+        int mod = k.mod();
+        System.out.println("Modulus is " + mod);
+
+    }
+}
+A class  :
+return and no argument 
+show1() : return type :byte 
+show2() :return type :short 
+show3() :return type :long
+show4() :return type :double 
+show5() :return type :boolean
+show6() :return type :float 
+show7() :return type :char 
+show8() :return type :String 
+
+user input 
+
+sol.
+import java.util.Scanner;
+//outer main class
+//no return and no argument
+class j {
+    Scanner sc = new Scanner(System.in);
+
+    int show1() 
+    {
+        System.out.print("Enter the int value: ");
+        int a = sc.nextInt();
+
+        return a;
+    }
+    byte show2() 
+    {
+        System.out.print("Enter the byte value: ");
+        byte a = sc.nextByte();
+
+        return a;
+    }
+
+    short show3() 
+    {
+        System.out.print("Enter the short value: ");
+        short a = sc.nextShort();
+
+        return a;
+    }
+
+    long show4() 
+    {
+        System.out.print("Enter the long value: ");
+        long a = sc.nextLong();
+
+        return a;
+    }
+
+    double show5()
+    {
+        System.out.print("Enter the double value: ");
+        double a = sc.nextDouble();
+
+        return a;
+    }
+
+    boolean show6() 
+    {
+        System.out.print("Enter the boolean value: ");
+        boolean a = sc.nextBoolean();
+
+        return a;
+    }
+
+    float show7() 
+    {
+        System.out.print("Enter the float value: ");
+        float a = sc.nextFloat();
+
+        return a;
+    }
+
+    char show8() 
+    {
+        System.out.print("Enter the char value: ");
+        char a = sc.next().charAt(0);
+
+        return a;
+    }
+}
+
+public class retnoargMain2{
+public static void main(String[] args) {
+    j k = new j();
+    int a = k.show1();
+    System.out.println(a);
+
+    byte b = k.show2();
+    System.out.println(b);
+
+    short c = k.show3();
+    System.out.println(c);
+
+    long d = k.show4();
+    System.out.println(d);
+
+    double e = k.show5();
+    System.out.println(e);
+
+    boolean f = k.show6();
+    System.out.println(f);
+
+    float g = k.show7();
+    System.out.println(g);
+
+    char h = k.show8();
+    System.out.println(h);
+
+}
+}
+
+import java.util.Scanner;
+//outer main class
+//no return and no argument
+class j {
+    Scanner sc = new Scanner(System.in);
+
+    int show1() 
+    {
+        System.out.print("Enter the int value: ");
+        int a = sc.nextInt();
+
+        return a;
+    }
+    byte show2() 
+    {
+        System.out.print("Enter the byte value: ");
+        byte a = sc.nextByte();
+
+        return a;
+    }
+
+    short show3() 
+    {
+        System.out.print("Enter the short value: ");
+        short a = sc.nextShort();
+
+        return a;
+    }
+
+    long show4() 
+    {
+        System.out.print("Enter the long value: ");
+        long a = sc.nextLong();
+
+        return a;
+    }
+
+    double show5()
+    {
+        System.out.print("Enter the double value: ");
+        double a = sc.nextDouble();
+
+        return a;
+    }
+
+    boolean show6() 
+    {
+        System.out.print("Enter the boolean value: ");
+        boolean a = sc.nextBoolean();
+
+        return a;
+    }
+
+    float show7() 
+    {
+        System.out.print("Enter the float value: ");
+        float a = sc.nextFloat();
+
+        return a;
+    }
+
+    char show8() 
+    {
+        System.out.print("Enter the char value: ");
+        char a = sc.next().charAt(0);
+
+        return a;
+    }
+}
+
+public class retnoargMain2{
+public static void main(String[] args) {
+    j k = new j();
+    int a = k.show1();
+    System.out.println(a);
+
+    byte b = k.show2();
+    System.out.println(b);
+
+    short c = k.show3();
+    System.out.println(c);
+
+    long d = k.show4();
+    System.out.println(d);
+
+    double e = k.show5();
+    System.out.println(e);
+
+    boolean f = k.show6();
+    System.out.println(f);
+
+    float g = k.show7();
+    System.out.println(g);
+
+    char h = k.show8();
+    System.out.println(h);
+
+}
+}
+
+import java.util.Scanner;
+//outer main class
+//no return and no argument
+class j {
+    Scanner sc = new Scanner(System.in);
+
+    int show1() 
+    {
+        System.out.print("Enter the int value: ");
+        int a = sc.nextInt();
+
+        return a;
+    }
+    byte show2() 
+    {
+        System.out.print("Enter the byte value: ");
+        byte a = sc.nextByte();
+
+        return a;
+    }
+
+    short show3() 
+    {
+        System.out.print("Enter the short value: ");
+        short a = sc.nextShort();
+
+        return a;
+    }
+
+    long show4() 
+    {
+        System.out.print("Enter the long value: ");
+        long a = sc.nextLong();
+
+        return a;
+    }
+
+    double show5()
+    {
+        System.out.print("Enter the double value: ");
+        double a = sc.nextDouble();
+
+        return a;
+    }
+
+    boolean show6() 
+    {
+        System.out.print("Enter the boolean value: ");
+        boolean a = sc.nextBoolean();
+
+        return a;
+    }
+
+    float show7() 
+    {
+        System.out.print("Enter the float value: ");
+        float a = sc.nextFloat();
+
+        return a;
+    }
+
+    char show8() 
+    {
+        System.out.print("Enter the char value: ");
+        char a = sc.next().charAt(0);
+
+        return a;
+    }
+}
+
+public class retnoargMain2{
+public static void main(String[] args) {
+    j k = new j();
+    int a = k.show1();
+    System.out.println(a);
+
+    byte b = k.show2();
+    System.out.println(b);
+
+    short c = k.show3();
+    System.out.println(c);
+
+    long d = k.show4();
+    System.out.println(d);
+
+    double e = k.show5();
+    System.out.println(e);
+
+    boolean f = k.show6();
+    System.out.println(f);
+
+    float g = k.show7();
+    System.out.println(g);
+
+    char h = k.show8();
+    System.out.println(h);
+
+}
+}
+
+4)return and no argument 
+A class :
+show1() : return type :byte 
+show2() :return type :short
+
+B class :
+show3() :return type :long
+show4() :return type :double  
+
+
+C class :
+show5() :return type :boolean
+show6() :return type :float 
+ 
+Main class :
+show7() :return type :char 
+show8() :return type :String 
+
+user input 
+
+sol.
+
+import java.util.Scanner;
+//in two different class
+//return and no argument
+class A {
+
+    byte show1() 
+    {
+        System.out.print("Enter the byte value: ");
+        byte a = sc.nextByte();
+
+        return a;
+    }
+
+    short show2() 
+    {
+        System.out.print("Enter the short value: ");
+        short a = sc.nextShort();
+
+        return a;
+    }
+
+}
+
+class B {
+    long show3() 
+    {
+        System.out.print("Enter the long value: ");
+        long a = sc.nextLong();
+
+        return a;
+    }
+
+    double show4()
+    {
+        System.out.print("Enter the double value: ");
+        double a = sc.nextDouble();
+
+        return a;
+    }
+}
+class C {
+    boolean show5() 
+    {
+        System.out.print("Enter the boolean value: ");
+        boolean a = sc.nextBoolean();
+
+        return a;
+    }
+
+    float show6() 
+    {
+        System.out.print("Enter the float value: ");
+        float a = sc.nextFloat();
+
+        return a;
+    }
+}
+    
+    
+public class retnoargMain3 {
+    char show7() 
+    {
+        System.out.print("Enter the char value: ");
+        char a = sc.next().charAt(0);
+
+        return a;
+    }
+    String show8() 
+    {
+        System.out.print("Enter the string value: ");
+        String a = sc.next();
+
+        return a;
+    }
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        retnoargMain3 k0 =new retnoargMain3();
+        A k = new A();
+        B k1 = new B();
+        C k2 = new C();
+
+    byte b = k.show1();
+    System.out.println(b);
+
+    short c = k.show2();
+    System.out.println(c);
+
+    long d = k1.show3();
+    System.out.println(d);
+
+    double e = k1.show4();
+    System.out.println(e);
+
+    boolean f = k2.show5();
+    System.out.println(f);
+
+    float g = k2.show6();
+    System.out.println(g);
+
+    char h = k0.show7();
+    System.out.println(h);
+
+    String i = k0.show8();
+    System.out.println(i);
+    }
+}
+
+5)
+return and no argument 
+even :even() call 
+odd :odd() 
+factorial :factorial()
+pallindrome :pallindrome()
+fibonacci :fibonacci() 
+reverse :reverse()
+swap :swap()
+
+sol.
+import java.util.Scanner;
+//return and no argument
+public class retnoarg4Main {
+    Scanner sc = new Scanner(System.in);
+
+    String even() {
+        System.out.println("Enter the number to verify if even: ");
+        int num = sc.nextInt();
+        String a = "EVEN";
+        String b = "NOT EVEN";
+
+        if (num % 2 == 0) {
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    String odd() {
+        System.out.println("Enter the number to verify if odd: ");
+        int num = sc.nextInt();
+        String a = "ODD";
+        String b = "NOT ODD";
+
+        if (num % 2 != 0) {
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    int factorial() {
+        System.out.println("Enter the number to find out it's facorial: ");
+        int num = sc.nextInt();
+
+        int fac = 1;
+        for (int i = 1; i <= num; i++) {
+            fac *= i;
+        }
+        return fac;
+    }
+
+    String pallindrome() {
+        System.out.print("Enter the number to check if pallindrome or not: ");
+        int num = sc.nextInt();
+
+        String a = "The Num is Pallindrome.";
+        String b = "The Num is not Pallindrome.";
+
+        int rev = 0, temp = num;
+
+        while (temp > 0) {
+            int rem = temp % 10;
+            rev = rev * 10 + rem;
+            temp = temp / 10;
+        }
+        if (num == rev) {
+            return a;
+        } else {
+            return b;
+        }
+    }
+
+    int fibanacci() {
+        System.out.print("Enter the nth number: ");
+        int num = sc.nextInt();
+
+        int a = 0, b = 1, c = 0;
+
+        for (int i = 1; i < num - 1; i++) {
+            c = a + b;
+            a = b;
+            b = c;
+        }
+        return c;
+    }
+
+    int reverse() {
+        System.out.print("Enter the number you want to reverse: ");
+        int num = sc.nextInt();
+
+        int rev = 0;
+
+        while (num > 0) {
+            int rem = num % 10;
+            rev = rev * 10 + rem;
+            num = num / 10;
+        }
+        return rev;
+    }
+
+    int swap() {
+        System.out.println("Enter the first number: ");
+        int num1 = sc.nextInt();
+        System.out.println("Enter the second number: ");
+        int num2 = sc.nextInt();
+        int temp;
+        temp = num1;
+        num1 = num2;
+        num2 = temp;
+        return num1;
+    }
+
+    public static void main(String[] args) {
+        retnoarg4Main a = new retnoarg4Main();
+
+        String even = a.even();
+        System.out.println(even);
+
+        String odd = a.odd();
+        System.out.println(odd);
+
+        int fac = a.factorial();
+        System.out.println(fac);
+
+        String pall = a.pallindrome();
+        System.out.println(pall);
+
+        int fib = a.fibanacci();
+        System.out.println(fib);
+
+        int rev = a.reverse();
+        System.out.println(rev);
+
+        int swapped = a.swap();
+        System.out.println(swapped);
+
+    }
+}
+return and  argument 
+add() =>a+b 
+sub() =>a-b 
+multi() =>a*b 
+div() =>a/b 
+mod() =>a%b
+
+sol.
+import java.util.Scanner;
+//return and argument
+//inside main class
+public class retargmain {
+
+    int add(int a,int b) {
+        int c = a+b;
+
+    return c;
+    }
+
+    int subt(int a, int b) {
+        int c = a-b;
+
+        return c;
+    }
+
+    int mult(int a, int b) {
+        int c = a*b;
+
+        return c;
+    }
+
+    int div(int a, int b) {
+        int c = a/b;
+
+        return c;
+    }
+
+    int mod(int a, int b) {
+        int c = a%b;
+
+        return c;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the first number: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int b = sc.nextInt();
+        retargmain k = new retargmain();
+        
+        int add = k.add(a,b);
+        System.out.println("Addition is " + add);
+
+        int subt = k.subt(a,b);
+        System.out.println("Subtraction is " + subt);
+
+        int mult = k.mult(a,b);
+        System.out.println("Multiplication is " + mult);
+
+        int div = k.div(a,b);
+        System.out.println("Division is " + div);
+
+        int mod = k.mod(a,b);
+        System.out.println("Modulus is " + mod);
+
+    }
+}
+    
+
+
+

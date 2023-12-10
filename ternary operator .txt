@@ -1,0 +1,159 @@
+ternary operator :
+1)voter id 
+=>user input
+
+sol.
+
+import java.util.Scanner;
+
+public class ternaryMain2 {
+    public static void main(String[] args) {
+        // voterid :
+        //ternary operator
+        Scanner sc = new Scanner(System.in);
+  
+        System.out.print("Enter the value of a: ");
+        int a = sc.nextInt();
+
+        String name = (a > 18) ? ("eligible for vote") : ("not eligible for vote");
+        System.out.println(name);
+    }
+}
+
+two number max a b 
+a ya b dono mey se bda konsa hey 
+---------------
+
+sol.
+
+import java.util.Scanner;
+
+public class ternaryMain1 {
+    public static void main(String[] args) {
+        // two number maximum :
+        //ternary operator
+        Scanner sc = new Scanner(System.in);
+  
+        System.out.print("Enter the value of a: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter the value of b: ");
+        int b = sc.nextInt();
+        
+        String name = (a > b) ? ("a is max") : ("b is max ");
+        System.out.println(name);
+    }
+}
+
+
+three number max a b c 
+tenno mey se konsa badha hey 
+
+sol.
+
+import java.util.Scanner;
+
+public class ternaryMain {
+    public static void main(String[] args) {
+        // three number maximum :
+        //ternary operator
+        Scanner sc = new Scanner(System.in);
+  
+        System.out.print("Enter the value of a: ");
+        int a = sc.nextInt();
+
+        System.out.print("Enter the value of b: ");
+        int b = sc.nextInt();
+
+        System.out.print("Enter the value of c: ");
+        int c = sc.nextInt();
+        
+        String name = (a > b && a > c) ? ("a is max") : (b > a && b > c) ? ("b is max ") : ("c is max ");
+        System.out.println(name);
+    }
+}
+
+ vowel and consonat 
+->a e i o u vowel 
+consonant 
+ sol.
+import java.util.Scanner;
+
+public class ternaryMain3 {
+    public static void main(String[] args) {
+        // vowel and constant :
+        //ternary operator
+        Scanner sc = new Scanner(System.in);
+  
+        System.out.print("Enter the value: ");
+        char ch = sc.next().charAt(0);
+
+
+        String name = (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') ? ("the character is a vowel") : ("the character is a Consonent");
+        System.out.println(name);
+    }
+}
+
+)m =you are 
+f = female 
+other 
+ sol.
+
+import java.util.Scanner;
+
+public class ternaryMain4 {
+    public static void main(String[] args) {
+        // gender  :
+        //ternary operator
+        Scanner sc = new Scanner(System.in);
+  
+        System.out.print("Enter the value: ");
+        char ch = sc.next().charAt(0);
+
+
+        String name = (ch == 'm') ? ("Male") : (ch == 'f') ? ("Female") :("invalid gender") ;
+        System.out.println(name);
+    }
+}
+
+)user number 
+check number :even odd 
+ sol.
+
+import java.util.Scanner;
+
+public class ternaryMain5 {
+    public static void main(String[] args) {
+        // even or odd :
+        //ternary operator
+        Scanner sc = new Scanner(System.in);
+  
+        System.out.print("Enter the value: ");
+        int a = sc.nextInt();
+
+        String name = (a % 2==0) ? ("number is even") : ("number is odd");
+        System.out.println(name);
+    }
+}
+
+uper case and lower case input by user 
+A k  
+
+sol.
+
+import java.util.Scanner;
+
+public class ternaryMain6 {
+    public static void main(String[] args) {
+        // lowercase and uppercase :
+        //ternary operator
+        Scanner sc = new Scanner(System.in);
+  
+        System.out.print("Enter the character: ");
+        char ch = sc.next().charAt(0);
+
+
+        String name =(ch>='a' && ch<='z') ? ("This is a Lowercase Alphabet") : ("This is a uppercase Alphabet");
+        System.out.println(name);
+    }
+}
